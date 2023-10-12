@@ -1,0 +1,67 @@
+body {
+  position: relative;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  width: 50%;
+  margin: 0 auto;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.212);
+  background-image: url(https://e1.pxfuel.com/desktop-wallpaper/674/270/desktop-wallpaper-neon-gradient-minimalist-abstract-and-backgrounds-minimalist-neon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Cabin", sans-serif;
+  font-family: "Gabarito", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Kanit", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0px 10px 100px rgba(16, 20, 230, 0.527);
+  border: 2px solid rgb(56, 54, 54);
+  transform: translateX(100px);
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+button {
+  align-self: flex-start;
+  margin: 10px 10px;
+  background-color: rgba(0, 0, 0, 0.377);
+  border: 1.2px solid white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  color: wheat;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.box h3 {
+  font-size: 4rem;
+  line-height: 40px;
+  margin-bottom: none;
+  margin: 10px 10px;
+}
+* {
+  margin: 0;
+}
+.box p {
+  font-size: 14px;
+  margin: 10px 10px;
+}
